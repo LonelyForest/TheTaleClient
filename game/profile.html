@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <!-- Таблицы стилей -->        
+        <link rel='stylesheet' type='text/css' href='../css/jquery.mobile.css'>
+        <link rel='stylesheet' type='text/css' href='../css/index.css'>
+        <title>TheTale</title>
+    </head>
+    <body>
+<!-- Основной код -->
+        <!-- Шапка -->
+        <div data-role='page' id='main'>
+        <div data-role='header' data-position=fixed>
+            <h1><Имя персонажа></h1>
+        </div>
+        <!-- Контент -->
+        <div data-role='content'>
+            <img src='./' height='5%'/>
+            <h2>
+            HP:<progress max='100' value='50' ></progress><br/>
+            EN:<progress max='100' value='50' ></progress><br/>
+            -Основные параметры-<br/>
+            СИЛА    : 1<br/>
+            ЛОВКОСТЬ: 1<br/>
+            ИНТЕЛЕКТ: 1<br/>
+            -Дополнительные параметры-<br/>
+            ВЫНОСЛИВОСТЬ: 1<br/>
+            СКОРОСТЬ    : 1<br/>
+            МУДРОСТЬ    : 1<br/>
+            </h2>
+        </div>
+        <!-- Подвал -->
+        <div data-role='footer' data-position=fixed>
+            <a href="#" data-role="button" data-rel="back">Назад</a>
+        </div>
+        </div>
+<!-- Скрипты -->
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src='../js/libs/jquery.js'></script>
+        <script type="text/javascript" src='../js/libs/jquery.mobile.js'></script>
+    </body>
+</html>

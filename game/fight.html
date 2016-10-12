@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <!-- Таблицы стилей -->        
+        <link rel='stylesheet' type='text/css' href='../css/jquery.mobile.css'>
+        <link rel='stylesheet' type='text/css' href='../css/index.css'>
+        <title>TheTale</title>
+    </head>
+    <body>
+<!-- Основной код -->
+        <!-- Контент -->
+        <div data-role='content'>
+
+        </div>
+        <!-- Подвал -->
+        <div data-role='footer' data-position=fixed>
+            <button>Атака</button>
+            <button>Навыки</button>
+            <button>Предметы</button>
+            <!-- Если идёт бой против игрока -->
+            <button>Сдаться</button>
+        </div>
+        <div data-role='page' data-dialog="true" id='Skill' >
+            <button>Проход</button>
+            <button>Усиление</button>
+            <div data-role='footer'>
+                <a href="#" data-role="button" data-rel="back">Назад</a>
+            </div>
+        </div>
+        <div data-role='page' id='Items' >
+            <button>Зелье лечения</button>
+            <button>Зелье здоровье</button>
+            <div data-role='footer'>
+                <a href="#" data-role="button" data-rel="back">Назад</a>
+            </div>
+        </div>
+<!-- Скрипты -->
+        <script type="text/javascript" src="../cordova.js"></script>
+        <script type="text/javascript" src='../js/libs/jquery.js'></script>
+        <script type="text/javascript" src='../js/libs/jquery.mobile.js'></script>
+    </body>
+</html>
