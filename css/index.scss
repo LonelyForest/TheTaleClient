@@ -1,0 +1,43 @@
+@mixin progressBar($color)
+{
+    border-radius: 2%;
+    width: 90%;
+    text-align: center;
+    ::-webkit-progress-bar { background: black; }
+    ::-webkit-progress-value { background: $color; }
+}
+div[data-role='page']{
+.footer
+{
+    button
+    {
+        width: 80%;
+        left: 10%;
+    }
+}
+}
+#healthBar
+{
+    @include progressBar(#990000);
+}
+.progress-bar {
+        background-color: #1a1a1a;
+        height: 25px;
+        padding: 5px;
+        width: 350px;
+        margin: 50px 0;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+}
+
+.progress-bar span {
+        display: inline-block;
+        height: 25px;
+        width: 200px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-transition: width .4s ease-in-out;
+        -ms-transition: width .4s ease-in-out;
+        -o-transition: width .4s ease-in-out;
+        transition: width .4s ease-in-out;
+}
