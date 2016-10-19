@@ -2,38 +2,48 @@ div[data-role='page'] .footer button {
   width: 80%;
   left: 10%; }
 
-#healthBar {
-  border-radius: 2%;
-  width: 90%;
-  text-align: center; }
-  #healthBar ::-webkit-progress-bar {
-    background: black; }
-  #healthBar ::-webkit-progress-value {
-    background: #990000; }
-
-.progress-bar {
-  background-color: #1a1a1a;
+.healthBar {
+  background-color: #EEEEEE;
   height: 25px;
   padding: 5px;
   width: 350px;
   margin: 50px 0;
+  -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
+  -moz-box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
   -webkit-box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
-  box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444; }
-
-.progress-bar span {
-  display: inline-block;
-  height: 25px;
-  width: 200px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-  -webkit-transition: width .4s ease-in-out;
-  -moz-transition: width .4s ease-in-out;
-  -ms-transition: width .4s ease-in-out;
-  -o-transition: width .4s ease-in-out;
-  transition: width .4s ease-in-out; }
+  box-shadow: 0 1px 5px #DFDFDF inset, 0 1px 0 #E5E5E5; }
+  .healthBar span {
+    display: inline-block;
+    height: 25px;
+    width: 0px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    background-color: #990000; }
+  .healthBar span[data_p="10"] {
+    width: 10%; }
+  .healthBar span[data_p="20"] {
+    width: 20%; }
+  .healthBar span[data_p="30"] {
+    width: 30%; }
+  .healthBar span[data_p="40"] {
+    width: 40%; }
+  .healthBar span[data_p="50"] {
+    width: 50%; }
+  .healthBar span[data_p="60"] {
+    width: 60%; }
+  .healthBar span[data_p="70"] {
+    width: 70%; }
+  .healthBar span[data_p="80"] {
+    width: 80%; }
+  .healthBar span[data_p="90"] {
+    width: 90%; }
+  .healthBar span[data_p="100"] {
+    width: 100%; }
 
 /*# sourceMappingURL=index.css.map */
