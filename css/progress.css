@@ -1,0 +1,51 @@
+.healthBar {
+  background-color: #EEEEEE;
+  height: 20px;
+  padding: 5px;
+  left: 5%;
+  width: 90%;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+  -webkit-box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+  box-shadow: 0 1px 5px #DFDFDF inset, 0 1px 0 #E5E5E5; }
+  .healthBar span {
+    display: inline-block;
+    height: 20px;
+    width: 10%;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    float: left;
+    background-color: #990000; }
+
+.energyBar {
+  background-color: #EEEEEE;
+  height: 20px;
+  padding: 5px;
+  left: 5%;
+  width: 90%;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+  -webkit-box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+  box-shadow: 0 1px 5px #DFDFDF inset, 0 1px 0 #E5E5E5; }
+  .energyBar span {
+    display: inline-block;
+    height: 20px;
+    width: 10%;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    float: left;
+    background-color: #FF8000; }
+
+/*# sourceMappingURL=progress.css.map */

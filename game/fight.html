@@ -6,15 +6,18 @@
     <!-- Таблицы стилей -->        
         <link rel='stylesheet' href='../css/jquery.mobile.css' type='text/css'>
         <link rel='stylesheet' href='../css/index.css' type='text/css'>
+        <link rel='stylesheet' href='../css/progress.css' type='text/css'>
         <title>TheTale</title>
     </head>
     <body>
 <!-- Основной код -->
         <div data-role='page'>
         <!-- Контент -->
+        <div data-role='header' data-postion='fixed'>
         <center>
         <div class="healthBar">
-            <span data_p="30"></span>
+            <span></span>
+        </div>
         </div>
         </center>
         <!-- Подвал -->
@@ -27,7 +30,11 @@
             </div>
         </div>
         <div data-role='page' data-dialog="true" id='Skill' >
-            <progress value=50 max=100 id='healthBar'></progress>
+            <center>
+            <div class="energyBar">
+                <span></span>
+            </div>
+            </center>
             <button class="button">Проход</button>
             <button class="button">Усиление</button>
             <div data-role='footer'>
