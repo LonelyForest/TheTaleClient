@@ -1,5 +1,5 @@
-div[data-role='page'] .footer button {
-  width: 80%;
-  left: 10%; }
-
-/*# sourceMappingURL=index.css.map */
+div[data-role='page'] div[data-role='footer'] a[data-role='button'] {
+  display: block;
+  width: 90%; }
+div[data-role='page'] .frag {
+  width: 80%; }

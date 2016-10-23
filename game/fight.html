@@ -12,21 +12,31 @@
     <body>
 <!-- Основной код -->
         <div data-role='page'>
-        <!-- Контент -->
+        <!-- Шапка -->
         <div data-role='header' data-postion='fixed'>
         <center>
-        <div class="healthBar">
+        <div class="healthFragBar">
             <span></span>
         </div>
+        </center>
         </div>
+        <!-- Контент -->
+        <center>
+        <img class='frag' src='../img/frag.png'/>
         </center>
         <!-- Подвал -->
-            <div class='footer' data-role='footer' data-position='fixed'>
-                <button>Атака</button><br/>
+            <div data-role='footer' data-position='fixed'>
+                <center>
+                <div class="healthUserBar">
+                    <span></span>
+                </div>
+                <br/>
+                <a href="#" data-role="button">Атака</a><br/>
                 <a href="#Skill" data-role="button">Навыки</a><br/>
                 <a href="#Items" data-role="button">Предметы</a><br/>
                 <!-- Если идёт бой против игрока -->
-                <button>Сдаться</button>
+                <a href="#" data-role="button">Сдаться</a>
+                </center>
             </div>
         </div>
         <div data-role='page' data-dialog="true" id='Skill' >
@@ -34,19 +44,22 @@
             <div class="energyBar">
                 <span></span>
             </div>
-            </center>
-            <button class="button">Проход</button>
-            <button class="button">Усиление</button>
-            <div data-role='footer'>
+            
+            <a href="#Skill" data-role="button">Проход</a>
+            <a href="#Skill" data-role="button">Усиление</a>
+            <div data-role='footer' data-position='fixed'>
                 <a href="#" data-role="button" data-rel="back">Назад</a>
             </div>
+            </center>
         </div>
         <div data-role='page' data-dialog="true" id='Items' >
-            <button class="button">Зелье лечения</button>
-            <button class="button">Зелье здоровье</button>
-            <div data-role='footer'>
+            <center>
+            <a href="#Skill" data-role="button">Зелье лечения</a>
+            <a href="#Skill" data-role="button">Зелье здоровье</a>
+            <div data-role='footer' data-positon='fixed'>
                 <a href="#" data-role="button" data-rel="back">Назад</a>
             </div>
+            </center>
         </div>
 <!-- Скрипты -->
         <script type="text/javascript" src="../cordova.js"></script>

@@ -9,14 +9,27 @@
     </head>
     <body>
 <!-- Основной код -->
+        <div data-role='page'>
         <!-- Шапка -->
         <div data-role='header' data-position=fixed>
+            <h1>Название раздела</h1>
         </div>
         <!-- Контент -->
         <div data-role='content'>
+            Текст раздела из папки
         </div>
         <!-- Подвал -->
         <div data-role='footer' data-position=fixed>
+            <a href="#" data-role="button" data-rel="back">Назад</a>
+        </div>
+        </div>
+        <div data-role='page' id='box'>
+            <div data-role='header' data-position='fixed'>
+                <h1>Энциклопедия</h1>
+            </div>
+            <div data-role='footer' data-position='fixed'>
+                <a href="#" data-role="button" data-rel="back">Назад</a>
+            </div>
         </div>
 <!-- Скрипты -->
         <script type="text/javascript" src="cordova.js"></script>
