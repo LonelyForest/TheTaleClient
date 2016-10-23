@@ -1,1 +1,5 @@
 /.vscode/
+/css/images/
+/css/.sass-cache/
+/css/*.css.map
+/css/*.css
